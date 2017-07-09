@@ -41,6 +41,7 @@ input[name="hearder"]{
     background-color: #5AC0CE;
     font-size: 2rem;
     cursor: pointer;
+    font-weight: bold;
 }
 .shuru{
     width: 100%;
