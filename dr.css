@@ -7,6 +7,7 @@ html{
 body{
     margin: 0px;
     padding: 0px;
+    background-color: #EEF0F4;
 }
 .header{
     position: fixed;
@@ -34,6 +35,13 @@ body{
     width: 20%;
     height: 100%;
 }
+input[name="hearder"]{
+    border: none;
+    color: white;
+    background-color: #5AC0CE;
+    font-size: 2rem;
+    cursor: pointer;
+}
 .shuru{
     width: 100%;
     position: relative;
@@ -43,11 +51,13 @@ body{
     vertical-align: middle;
     padding: 5px;
     margin: 7px;
+    background-color: white;
 }
 .shuru .pw{
     padding: 5px;
     vertical-align: middle;
     margin: 7px;
+    background-color: white;
 
 }
 .shuru .admin .admin{
@@ -91,8 +101,9 @@ input[type="submit"]{
     color: white;
     letter-spacing:25px;
     text-align: center;
+    cursor: pointer;
 }
-input[type="button"]{
+input[name="wjmm"]{
     border: none;
     color: #5AC0CE;
     background-color: white;
@@ -101,4 +112,6 @@ input[type="button"]{
     margin-right: 10px;
     font-weight: bold;
     text-decoration: underline;
+    background-color: #EEF0F4;
+    cursor: pointer;
 }
